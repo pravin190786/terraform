@@ -1,0 +1,7 @@
+# Ignore the .terraform directory
+.terraform/
+
+# Ignore large provider files
+*.tfstate
+*.tfstate.backup
+*.hcl
